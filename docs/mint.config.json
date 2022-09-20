@@ -1,0 +1,98 @@
+{
+  "name": "Schoolable",
+  "favicon": "/logo/favicon.ico",
+  "logo": {
+    "light": "/logo/schoolable-logo.png",
+    "dark": "/logo/schoolable-logo.png"
+  },
+  "api": {
+    "baseUrl": "https://api.vessel.land",
+    "auth": {
+      "method": "key",
+      "name": "vessel-api-token"
+    }
+  },
+  "colors": {
+    "primary": "#424054",
+    "light": "#ECE7E3",
+    "dark": "#2B2B2F",
+    "ultraLight": "#F3EFEC",
+    "ultraDark": "#050229"
+  },
+  "topbarLinks": [
+    {
+      "name": "",
+      "url": ""
+    }
+  ],
+  "topbarCtaButton": {
+    "url": "https://pay.schoolable.co/login?utm_source=schoolable_website&utm_medium=navbar&utm_campaign=selfonboard",
+    "name": "Login"
+  },
+  "anchors": [
+    {
+      "name": "Blog",
+      "icon": "comments",
+      "color": "#0ea4e9",
+      "url": "https://blog.schoolable.co/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": ["introduction.mdx"]
+    },
+    {
+      "group": "",
+      "pages": ["general-flow.mdx"]
+    },
+    {
+      "group": "",
+      "pages": ["api-service-url.mdx"]
+    },
+    {
+      "group": "Service Endpoints",
+      "pages": [
+        "service-endpoints/create-customer-wallet.mdx",
+        "service-endpoints/activate-customer-wallet.mdx",
+        "service-endpoints/add-account-to-wallet.mdx",
+        "service-endpoints/get-wallet-balance.mdx",
+        "service-endpoints/fund-wallet.mdx",
+        "service-endpoints/charge-debit-customer-wallet.mdx",
+        "service-endpoints/debit-charge-status-check.mdx",
+        "service-endpoints/fund-wallet-transaction-status-check.mdx",
+        "service-endpoints/transaction-statement-list.mdx",
+        "service-endpoints/update-owner-bvn.mdx",
+        "service-endpoints/integration-modalities-callback.mdx",
+        "service-endpoints/dispute-logging.mdx",
+        "service-endpoints/get-dispute-logged.mdx",
+        "service-endpoints/get-dispute-history.mdx"
+      ]
+    },
+    {
+      "group": "Response Codes",
+      "pages": [
+        "response-codes/standard-http-status-codes.mdx",
+        "response-codes/application-status-codes.mdx"
+      ]
+    }
+  ],
+  "footerSocials": [
+    {
+      "type": "twitter",
+      "url": "https://twitter.com/schoolableHQ"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/schoolableHQ/"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/company/schoolable/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/schoolableHQ/"
+    }
+  ]
+}
