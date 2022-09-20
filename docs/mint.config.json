@@ -6,10 +6,9 @@
     "dark": "/logo/schoolable-logo.png"
   },
   "api": {
-    "baseUrl": "https://api.vessel.land",
+    "baseUrl": "https://62.173.32.30:8080",
     "auth": {
-      "method": "key",
-      "name": "vessel-api-token"
+      "method": "bearer"
     }
   },
   "colors": {
@@ -39,41 +38,33 @@
   ],
   "navigation": [
     {
-      "group": "",
-      "pages": ["introduction.mdx"]
-    },
-    {
-      "group": "",
-      "pages": ["general-flow.mdx"]
-    },
-    {
-      "group": "",
-      "pages": ["api-service-url.mdx"]
+      "group": "Welcome",
+      "pages": ["introduction", "general-flow", "api-service-url"]
     },
     {
       "group": "Service Endpoints",
       "pages": [
-        "service-endpoints/create-customer-wallet.mdx",
-        "service-endpoints/activate-customer-wallet.mdx",
-        "service-endpoints/add-account-to-wallet.mdx",
-        "service-endpoints/get-wallet-balance.mdx",
-        "service-endpoints/fund-wallet.mdx",
-        "service-endpoints/charge-debit-customer-wallet.mdx",
-        "service-endpoints/debit-charge-status-check.mdx",
-        "service-endpoints/fund-wallet-transaction-status-check.mdx",
-        "service-endpoints/transaction-statement-list.mdx",
-        "service-endpoints/update-owner-bvn.mdx",
-        "service-endpoints/integration-modalities-callback.mdx",
-        "service-endpoints/dispute-logging.mdx",
-        "service-endpoints/get-dispute-logged.mdx",
-        "service-endpoints/get-dispute-history.mdx"
+        "service-endpoints/create-customer-wallet",
+        "service-endpoints/activate-customer-wallet",
+        "service-endpoints/add-account-to-wallet",
+        "service-endpoints/get-wallet-balance",
+        "service-endpoints/fund-wallet",
+        "service-endpoints/charge-debit-customer-wallet",
+        "service-endpoints/debit-charge-status-check",
+        "service-endpoints/fund-wallet-transaction-status-check",
+        "service-endpoints/transaction-statement-list",
+        "service-endpoints/update-owner-bvn",
+        "service-endpoints/integration-modalities-callback",
+        "service-endpoints/dispute-logging",
+        "service-endpoints/get-dispute-logged",
+        "service-endpoints/get-dispute-history"
       ]
     },
     {
       "group": "Response Codes",
       "pages": [
-        "response-codes/standard-http-status-codes.mdx",
-        "response-codes/application-status-codes.mdx"
+        "response-codes/standard-http-status-codes",
+        "response-codes/application-status-codes"
       ]
     }
   ],
