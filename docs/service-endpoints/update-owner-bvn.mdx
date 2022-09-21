@@ -1,3 +1,19 @@
 ---
-title: "Update Customber Wallet Owner with BVN"
+title: "Update Customer Wallet Owner with BVN"
+api: "POST /api/provider/wallets/:walletAccountNumber/update"
 ---
+
+This endpoint is utilized to update Customer Wallet owner details with BVN.
+
+<RequestExample>
+
+```json Request
+{
+  "bvn": "2210034567890",
+  "firstName": "Alfred",
+  "lastName": "Rewane",
+  "address": "Muri Okinola"
+}
+```
+
+</RequestExample>
