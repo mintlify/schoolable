@@ -12,11 +12,11 @@
     }
   },
   "colors": {
-    "primary": "#424054",
-    "light": "#ECE7E3",
-    "dark": "#2B2B2F",
-    "ultraLight": "#F3EFEC",
-    "ultraDark": "#050229"
+    "primary": "#5B63FE",
+    "light": "#A6A9F9",
+    "dark": "#251F68",
+    "ultraLight": "#F7F7FE",
+    "ultraDark": "#0C0744"
   },
   "topbarLinks": [
     {
