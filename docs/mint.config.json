@@ -25,7 +25,7 @@
     }
   ],
   "topbarCtaButton": {
-    "url": "https://pay.schoolable.co/login?utm_source=schoolable_website&utm_medium=navbar&utm_campaign=selfonboard",
+    "url": "https://pay.schoolable.co/login?utm_source=docs&utm_medium=navbar",
     "name": "Login"
   },
   "anchors": [
