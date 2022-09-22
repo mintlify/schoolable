@@ -31,8 +31,8 @@
   "anchors": [
     {
       "name": "Blog",
-      "icon": "comments",
-      "color": "#0ea4e9",
+      "icon": "newspaper",
+      "color": "#251F68",
       "url": "https://blog.schoolable.co/"
     }
   ],
