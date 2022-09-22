@@ -2,8 +2,8 @@
   "name": "Schoolable",
   "favicon": "/favicon.png",
   "logo": {
-    "light": "/logo/schoolable-logo.png",
-    "dark": "/logo/schoolable-logo.png"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "api": {
     "baseUrl": "https://62.173.32.30:8080",
